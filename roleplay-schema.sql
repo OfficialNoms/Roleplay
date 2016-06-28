@@ -22,5 +22,5 @@ CREATE TABLE IF NOT EXISTS `civilians` (
 
   PRIMARY KEY (`uid`),
   UNIQUE KEY `guid` (`guid`),
-  KEY `name` (`name`),
+  KEY `name` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 AUTO_INCREMENT=12 ;
